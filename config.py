@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 #Recommended
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8114490677:AAFsc37HGL-Z6LjrOZPqlgirrIkFUlhQlnQ")
-APP_ID = int(os.environ.get("APP_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "0")
+APP_ID = int(os.environ.get("APP_ID", "27382214"))
+API_HASH = os.environ.get("API_HASH", "6a3913eb3f026ab02e7ac1c420df2ad0")
 
 ##---------------------------------------------------------------------------------------------------
 
 #Main 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5090651635"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5984303934"))
 PORT = os.environ.get("PORT", "8010")
 
 ##---------------------------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ USER_REPLY_TEXT = None
 
 #Admin == OWNERID
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(5984303934)
 
 ##---------------------------------------------------------------------------------------------------
 
