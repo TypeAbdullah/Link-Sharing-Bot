@@ -17,8 +17,8 @@ PORT = os.environ.get("PORT", "8010")
 ##---------------------------------------------------------------------------------------------------
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "0")
-DB_NAME = os.environ.get("DATABASE_NAME", "links-sharing")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Links:Links@cluster0.07koqod.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Links")
 
 ##---------------------------------------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "") #No Need keep it blank
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5090651635").split()):
+    for x in (os.environ.get("ADMINS", "5984303934").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
