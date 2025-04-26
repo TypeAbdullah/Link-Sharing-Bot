@@ -1,5 +1,4 @@
 # --- For-Bot-Working --------- #
-git+https://github.com/Sahil0976/pyrogram
 TgCrypto
 pyromod
 motor
